@@ -1,0 +1,56 @@
+
+
+
+
+.aside{
+  display: none;
+  position: absolute;
+  width: 100%;
+  min-height: 110vh;
+  background: rgba(1, 0, 0, 0.5);
+}
+
+.menu{
+  width: 50%;
+  min-height: 110vh;
+  display: none;
+  //height: 400px;
+  scroll-margin-block: unset;
+  transition: 1s;
+  position: absolute;
+  background: white;
+  .burger{
+
+    &-page{
+      text-align: center ;
+
+      display: flex;
+      flex-direction: column;
+      &-left{
+        display: flex;
+        flex-direction: column;
+        &-icon{
+          color: black;
+          font-size: 30px;
+          position: absolute;
+          right: 3px;
+
+        }
+        &-link{
+          color: #0F1624;
+          font-size: 15px;
+          font-family: Poppins, serif;
+          padding: 10px;
+          border-bottom: 1px solid #0F1624;
+        }
+      }
+    }
+  }
+
+}
+.actives{
+
+  transform: translateY(-110vh);
+
+
+}

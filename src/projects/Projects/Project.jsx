@@ -12,13 +12,13 @@ const Project = () => {
             <div className="page-subject">
                 <h1 className="page-subject-sub">Projects </h1>
                 <div className="page-subject-content">
-                    <div
+                    <div className="page-subject-content-div"
                         data-aos-once="true"
                         data-aos="fade-up"
-                        data-aos-delay="200"
+                        data-aos-delay="300"
                         data-aos-offset="100"
                         data-aos-duration="600"
-                        className="page-subject-content-div">
+                        >
                         <img alt="" className="page-subject-content-div-img" src={image} />
                         <p className="page-subject-content-div-subtext">
                             PROJECT 1

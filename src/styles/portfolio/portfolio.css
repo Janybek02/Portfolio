@@ -6,7 +6,7 @@
 .section {
   background: #0F1624;
   width: 100%;
-  min-height: 100vh;
+  min-height: 110vh;
 }
 .section-page-div {
   float: left;

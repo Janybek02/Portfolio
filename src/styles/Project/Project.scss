@@ -5,7 +5,7 @@
 
 .page{
   width: 100%;
-  height: 210vh;
+  height: 1380px;
   background: #0F1624;
   &-subject{
     text-align: center;
@@ -14,14 +14,14 @@
       font-size: 50px;
     }
     &-content{
-      margin: 40px 150px 0 150px ;
+      margin: 40px 150px 0 200px ;
 
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
       align-items: center;
       &-div{
-        margin: 30px 30px 60px 0 ;
+        margin: 30px 80px 60px 20px ;
         justify-content: space-around;
         display: flex;
         flex-direction: column;
@@ -31,6 +31,8 @@
         border: 1px solid white;
         box-shadow: 0 0 10px 1.2px  white;
         border-radius: 30px 0  30px 0;
+        //background: linear-gradient(270deg, #1b4149 0%, #202867 66.67%, #524369 100%);
+        background: #0d2134;
         &-img {
           width: 93%;
         }
@@ -44,7 +46,7 @@
         }
         &-text{
           color: #BCBCBC;
-          font-size: 15px;
+          font-size: 18px;
           font-family: Poppins, serif;
         }
         &-span{

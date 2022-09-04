@@ -25,9 +25,9 @@ const Portfolio = () => {
                             loop={3}
                             steps={[
                                 1000,
-                                 " am a Orozbekov Janybek",
+                                 " Orozbekov Janybek",
                                 3000,
-                                ' Front-Ent Development',
+                                ' am a Front-Ent Development',
                                 1000,
                             ]}
                         />

@@ -4,6 +4,7 @@ import Portfolio from "./projects/Pages/Portfolio";
 import Project from "./projects/Projects/Project";
 import "../src/styles/media/media.scss"
 import {useEffect, useState} from "react";
+import Technologies from "./projects/Technologies/Technologies";
 function App() {
 
     const [burger, setBurger] = useState(true)
@@ -11,21 +12,15 @@ function App() {
         setBurger(!burger)
     }
     const bodyO = () =>{
-        if (burger === true){
-            return document.body.style.overflow = "hidden";
-        } else return 0
-    }
-    const bodyR = () =>{
         if (burger === false){
-            return document.body.style.overflow = "auto";
-        } else return 0
+            return document.body.style.overflow = "hidden";
+        } else   return document.body.style.overflow = "auto";
     }
-    useEffect(()=>{
-      if ( burger === true){
-          return bodyO
-      } else return  bodyR
 
-    },[ burger])
+
+    useEffect(()=>{
+       bodyO()
+    },[burger])
   return (
     <div
 
@@ -34,6 +29,9 @@ function App() {
         <Header  burger={burger} setBurger={setBurger} burgerOnclick={burgerOnclick}/>
         <Portfolio setBurger={setBurger}/>
         <Project/>
+        <Technologies/>
+
+
     </div>
   );
 }

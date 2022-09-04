@@ -61,7 +61,7 @@
 
   .page {
     width: 100%;
-    height: 210vh;
+    height: 1380px;
     background: #0F1624;
   }
   .page-subject {
@@ -72,14 +72,14 @@
     font-size: 50px;
   }
   .page-subject-content {
-    margin: 40px 150px 0 150px;
+    margin: 40px 100px 0 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
   }
   .page-subject-content-div {
-    margin: 30px 30px 60px 0;
+    margin: 30px 60px 60px 0;
     justify-content: space-around;
     display: flex;
     flex-direction: column;
@@ -119,10 +119,10 @@
     padding: 5px 14px;
   }
 }
-@media (max-width: 1087px) {
+@media (max-width: 1025px) {
   .page {
     width: 100%;
-    height: 210vh;
+    height: 1380px;
     background: #0F1624;
   }
   .page-subject {
@@ -135,17 +135,17 @@
   .page-subject-content {
     margin: 40px 100px 0 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
   }
   .page-subject-content-div {
-    margin: 30px 30px 60px 0;
+    margin: 30px 60px 60px 0;
     justify-content: space-around;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px;
+    width: 300px;
     height: 500px;
     border: 1px solid white;
     box-shadow: 0 0 10px 1.2px white;
@@ -272,7 +272,7 @@
 
   .page {
     width: 100%;
-    height: 210vh;
+    height: 1380px;
     background: #0F1624;
   }
   .page-subject {
@@ -285,17 +285,17 @@
   .page-subject-content {
     margin: 40px 50px 0 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
   }
   .page-subject-content-div {
-    margin: 30px 30px 60px 0;
+    margin: 30px 0 60px 0px;
     justify-content: space-around;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px;
+    width: 300px;
     height: 500px;
     border: 1px solid white;
     box-shadow: 0 0 10px 1.2px white;
@@ -374,124 +374,6 @@
     font-family: Poppins, serif;
     background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
   }
-
-  .page {
-    width: 100%;
-    height: 210vh;
-    background: #0F1624;
-  }
-  .page-subject {
-    text-align: center;
-  }
-  .page-subject-sub {
-    color: white;
-    font-size: 50px;
-  }
-  .page-subject-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .page-subject-content-div {
-    margin: 30px 30px 60px 0;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    height: 500px;
-    border: 1px solid white;
-    box-shadow: 0 0 10px 1.2px white;
-    border-radius: 30px 0 30px 0;
-  }
-  .page-subject-content-div-img {
-    width: 93%;
-  }
-  .page-subject-content-div-subtext {
-    color: white;
-    font-weight: 700;
-    font-size: 20px;
-    font-family: Poppins, serif;
-  }
-  .page-subject-content-div-text {
-    color: #BCBCBC;
-    font-size: 15px;
-    font-family: Poppins, serif;
-  }
-  .page-subject-content-div-span {
-    height: 3px;
-    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
-    width: 170px;
-    border-radius: 2px;
-  }
-  .page-subject-content-div-btn {
-    color: white;
-    font-family: Poppins, serif;
-    font-size: 14px;
-    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
-    border-radius: 20px;
-    padding: 5px 14px;
-  }
-}
-@media (min-width: 763px) {
-  .page {
-    width: 100%;
-    height: 210vh;
-    background: #0F1624;
-  }
-  .page-subject {
-    text-align: center;
-  }
-  .page-subject-sub {
-    color: white;
-    font-size: 50px;
-  }
-  .page-subject-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .page-subject-content-div {
-    margin: 40px 50px 0 50px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    height: 500px;
-    border: 1px solid white;
-    box-shadow: 0 0 10px 1.2px white;
-    border-radius: 30px 0 30px 0;
-  }
-  .page-subject-content-div-img {
-    width: 93%;
-  }
-  .page-subject-content-div-subtext {
-    color: white;
-    font-weight: 700;
-    font-size: 20px;
-    font-family: Poppins, serif;
-  }
-  .page-subject-content-div-text {
-    color: #BCBCBC;
-    font-size: 15px;
-    font-family: Poppins, serif;
-  }
-  .page-subject-content-div-span {
-    height: 3px;
-    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
-    width: 170px;
-    border-radius: 2px;
-  }
-  .page-subject-content-div-btn {
-    color: white;
-    font-family: Poppins, serif;
-    font-size: 14px;
-    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
-    border-radius: 20px;
-    padding: 5px 14px;
-  }
 }
 @media (max-width: 733px) {
   .header {
@@ -506,12 +388,62 @@
     display: block;
   }
 
+  .section {
+    background: #0F1624;
+    width: 100%;
+    min-height: 100vh;
+  }
+  .section-page-div {
+    float: left;
+  }
+  .section-page-div-sub {
+    padding: 100px 0 21px 80px;
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: Poppins, serif;
+  }
+  .section-page-div-text {
+    color: #BCBCBC;
+    font-size: 20px;
+    font-family: Poppins, serif;
+    margin-left: 80px;
+    margin-top: 50px;
+    line-height: 2;
+  }
+  .section-page-image {
+    margin-top: 80px;
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 80px;
+    box-shadow: 0 0 10px 5px white;
+    border-radius: 10px;
+  }
+  .section-page-btn {
+    margin-top: -140px;
+    margin-left: 120px;
+  }
+  .section-page-btn-button {
+    padding: 7px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: Poppins, serif;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  }
+
   .aside {
     display: block;
   }
 
   .menu {
     display: block;
+  }
+}
+@media (max-width: 703px) {
+  .page {
+    width: 100%;
+    height: 2480px;
   }
 }
 
